@@ -2,6 +2,10 @@
 	text-decoration: none;
 }
 
+body{
+	--red: rgb(230,60,60);
+}
+
 /*https://stackoverflow.com/questions/3471157/css-text-transform-capitalize-on-all-caps*/
 .lowercase{
 	text-transform: lowercase;
@@ -11,7 +15,7 @@
 }
 
 .red{
-	color: rgb(230,60,60);
+	color: var(--red);
 	font-family: sans-serif;
 	font-weight: bold;
 }
@@ -19,27 +23,9 @@
 main{
 	display: grid;
 	/*5: empty-title-title-title-empty*/
-	grid-template-columns: 1vh 1fr min-content 30vw min-content 1fr 1vh;
-	grid-template-rows: 1vh min-content 1fr min-content 2fr;
-	align-items: top;
+	grid-template-columns: 1vh 1fr min-content 40vw min-content 1fr 1vh;
+	grid-template-rows: 1vh auto min-content min-content auto;
 	margin: auto;
-}
-
-h1{
-	grid-column: 2 / -2;
-	grid-row: 2 / 3;
-	background: rgb(230,60,60);
-	color: white;
-	font-size: calc(2vw + 5vh);
-	font-family: 'Roboto Slab', serif;
-	font-weight: bolder;
-	text-align: center;
-	margin: 0;
-	padding-top: calc(0.2vw + 0.5vh);
-	padding-bottom: calc(0.6vw + 0.5vh);
-}
-h1>a{
-	color: white;
 }
 
 .cover{
@@ -52,9 +38,28 @@ h1>a{
 	object-position: 5% 50%;
 }
 
+h1{
+	grid-column: 2 / -2;
+	grid-row: 2 / 3;
+	background: var(--red);
+	color: white;
+	font-size: calc(1vw + 6vh);
+	font-family: 'Roboto Slab', serif;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0;
+	padding-top: calc(0.1vw + 0.5vh);
+	padding-bottom: calc(0.1vw + 0.6vh);
+	align-self: center;
+}
+
+h1>a{
+	color: white;
+}
+
 h2{
 	color: white;
-	font-size: calc(2vw + 2vh);
+	font-size: calc(1vw + 3vh);
 	font-family: 'Lora', serif;
 	font-weight: lighter;
 }
@@ -65,7 +70,7 @@ h2>a{
 h2:nth-of-type(1){
 	grid-column: 1 / -1;
 	grid-row: -2 / -3;
-	font-size: calc(1vw + 5vh);
+	font-size: calc(1vw + 4vh);
 	text-align: center;
 }
 
