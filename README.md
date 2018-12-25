@@ -10,7 +10,9 @@ Let's make web design fashionable again.
 
 ## Previews
 
-Issue No. 1: [magazine: Newsweek](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/magazine-Newsweek/newsweek-index.html)
+Issue 1: [magazine: Newsweek](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/magazine-Newsweek/newsweek-index.html)
+
+Issue 2: [dictionary](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/dictionary/dictionary-index.html)
 
 
 
