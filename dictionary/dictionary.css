@@ -22,6 +22,10 @@ ol>li:before{
 	padding-right: 0.25em;
 }
 
+li>ul>li:before{
+	content: "◦";
+}
+
 ul>li::first-letter{
 	text-transform: capitalize;
 }
@@ -40,6 +44,7 @@ hr{
 	width: 80%;
 	margin: auto;
 	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 
 #col-wrapper *{
