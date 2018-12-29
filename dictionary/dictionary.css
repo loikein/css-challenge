@@ -1,24 +1,19 @@
-*{
+body{
 	--yellow: rgb(253,249,242);
 	--black: rgb(50,50,50);
 	background-color: var(--yellow);
 	color: var(--black);
-	font-family: 'Merriweather', serif;
-	font-size: calc(0.3vmax + 0.5vmin + 0.5rem);
-	font-weight: 300;
 }
 
-li{
-	list-style-position: inside;
+*{
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	font-weight: 300;
 }
 
 /* https://stackoverflow.com/questions/4643913/how-can-i-show-numbers-on-an-inline-ordered-list */
 ol{
 	counter-reset: LIST-ITEMS;
-}
-
-ol>li{
-	padding-right: 0.5em;
 }
 
 ol>li:before{
@@ -31,15 +26,20 @@ ul>li::first-letter{
 	text-transform: capitalize;
 }
 
-main{
-	width: 80%;
-	margin: auto;
-	margin-top: 10vh;
+li{
+	list-style-position: inside;
+}
+
+hr{
+	border: solid 1em var(--yellow);
 }
 
 /* https://medium.com/@patrickbrosset/css-grid-css-multi-columns-7664f59bb60c */
 #col-wrapper{
 	column-width: 30ch;
+	width: 80%;
+	margin: auto;
+	margin-top: 10vh;
 }
 
 #col-wrapper *{
