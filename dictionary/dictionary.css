@@ -40,6 +40,7 @@ hr{
 
 /* https://medium.com/@patrickbrosset/css-grid-css-multi-columns-7664f59bb60c */
 #col-wrapper{
+	column-rule: solid 1px #DDD;
 	column-width: 30ch;
 	width: 80%;
 	margin: auto;
@@ -58,9 +59,9 @@ hr{
 	display: grid;
 	/*grid-gap: 1em;*/
 	box-decoration-break: clone;
-	border: solid 1px #DDD;
+	/*border: solid 1px #DDD;*/
 	padding: 1rem;
-	box-shadow: 0px 0px 5px #DDD;
+	/*box-shadow: 0px 0px 5px #DDD;*/
 }
 
 .bold{
