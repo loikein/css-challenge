@@ -2,7 +2,7 @@
 
 Important note: this is a personal, experimental and playful project. For convinience, usually I do not write fallback code, which does not mean that it is correct. 
 
-Inspired by [Web Design Experiments by Jen Simmons](https://labs.jensimmons.com/), an elegant and beautiful experimental site that explores the possibilities with [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout). 
+Inspired by [Web Design Experiments by Jen Simmons](https://labs.jensimmons.com/), an elegant and beautiful experimental site that explores the possibilities of CSS. 
 
 Let's make web design fashionable again. 
 
@@ -12,7 +12,6 @@ Let's make web design fashionable again.
 
 ## Previews
 
-Issue 1: [magazine: Newsweek](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/magazine-Newsweek/newsweek-index.html)
-
-Issue 2: [dictionary](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/dictionary/dictionary-index.html)
-
+1. [magazine: Newsweek](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/magazine-Newsweek/newsweek-index.html)
+2. [dictionary](https://htmlpreview.github.io/?https://github.com/loikein/css-challenge/blob/master/dictionary/dictionary-index.html)
+3. (in progress) poster: Krise! Krise? [(source article)](https://www.fes-soziale-demokratie.de/zukunft-der-demokratie-ringvorlesung.html) [(poster)](https://pbs.twimg.com/media/Drk3vZaXgAE61RY.jpg)
